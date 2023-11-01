@@ -1,0 +1,77 @@
+.snip1441 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1px;
+    min-width: 230px;
+    max-width: 245px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    text-transform: uppercase;
+    box-shadow: none !important;
+  }
+  .snip1441:first-of-type {
+    margin-left: 10px;
+  }
+  .snip1441 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1441 .img1 {
+    padding: 15px 0;
+  }
+  .snip1441 img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+    position: relative;
+    opacity: 0.7;
+  }
+  .snip1441 figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #0d0d0d;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  .snip1441 h4 {
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    line-height: 1.1em;
+    font-weight: 900;
+  }
+  .snip1441 i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 20px;
+    font-size: 26px;
+  }
+  .snip1441 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .snip1441:hover img,
+  .snip1441.hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  .snip1441:hover figcaption,
+  .snip1441.hover figcaption {
+    -webkit-transform: translateY(-2%);
+    transform: translateY(-2%);
+  }
